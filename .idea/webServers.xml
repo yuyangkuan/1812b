@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4b0c3bde-9f4a-48b1-b9ad-047bb349c415" name="aaa" url="http://47.107.174.163">
+        <fileTransfer host="47.107.174.163" port="22" rootFolder="/data/wwwroot/default/1812" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="d0b27b32-9ceb-4c45-97b3-a26345c9479f" name="laravel" url="http://47.107.174.163">
+        <fileTransfer host="47.107.174.163" port="22" rootFolder="/data/wwwroot/default/laravel" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
